@@ -1,0 +1,365 @@
+.head-container-details{
+    background-color: #FFEEEE;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.nav-container-details{
+    height: 15vh;
+}
+.img2-details{
+    z-index: 1;
+    position: relative;
+    bottom: 15.5vh;
+}
+.img3-details{
+    z-index: 1;
+    position: relative;
+    left: 8vw;
+    bottom: 19vh;
+}
+.img4-details{
+    z-index: 1;
+    position: relative;
+    left: 25vw;
+    bottom: 15.5vh;
+}
+.nav-text-details{
+    font-family: DM Sans;
+    font-size: 1.5rem;
+    font-weight: 700;
+    cursor: pointer;
+    color: #FFFFFF;
+    z-index: 1;
+    position: relative;
+    bottom: 28vh;
+    left: 5vw;
+}
+.logout-btn-details{
+    font-family: DM Sans;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #FFFFFF;
+    cursor: pointer;
+    z-index: 1;
+    position: relative;
+    bottom: 36vh;
+    left: 70vw;
+}
+.hello-details{
+    font-family: DM Sans;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #FFFFFF;
+    z-index: 1;
+    position: relative;
+    bottom: 43.5vh;
+    left: 78vw;
+}
+.img-details{
+    border-radius: 50%;
+    z-index: 1;
+    position: relative;
+    bottom: 51vh;
+    left: 91vw;
+}
+.user-bar-details{
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+    z-index: 2;
+    position: relative;
+    left: 82vw;
+    bottom: 36vh;
+}
+.login-btn-details{
+    width: 6vw;
+    height: 5vh;
+    border: 2px solid #FFFFFF;
+    background-color: #FF6B6B;
+    border-radius: 7px;
+    cursor: pointer;
+    font-family: DM Sans;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+    color: #FFFFFF;
+}
+.reg-btn-details{
+    width: 6vw;
+    height: 5vh;
+    border: 2px solid #FFFFFF;
+    background-color: #FFFFFF;
+    border-radius: 7px;
+    cursor: pointer;
+    font-family: DM Sans;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+    color: #ED5353;
+}
+.job-head-details{
+    width: 80vw;
+    height: 13vh;
+    box-shadow: 0px 4px 23px 2px #0000001A;
+    background-color: #FFFFFF;
+    z-index: 2;
+    position: relative;
+    left: 10vw;
+    bottom: 6vh;
+}
+.job-head-details-para{
+    font-family: DM Sans;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+    color: #000000;
+    position: relative;
+    top: 4vh;
+}
+.job-desc-details{
+    width: 80vw;
+    box-shadow: 0px 2px 35px 1px #0000001A;
+    background-color: #FFFFFF;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    left: 10vw;
+}
+.mid1-container-details{
+    height: 8vh;
+    width: 75vw;
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+}
+.text1-details{
+    font-family: DM Sans;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: left;
+    color: #999999;
+}
+.text2-details{
+    font-family: DM Sans;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: left;
+    color: #999999;
+}
+.img5-details{
+    position: relative;
+    top: 1.5vh;
+}
+.text3-details{
+    font-family: DM Sans;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: left;
+    color: #999999;
+}
+.mid2-container-details{
+    height: 19vh;
+    width: 75vw;
+    display: flex;
+    flex-direction: column;
+}
+.head-details{
+    width: 75vw;
+    display: flex;
+    flex-direction: row;
+    gap: 5vw;
+}
+.head-txt-details{
+    height: 13vh;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+}
+.text4-details{
+    font-family: DM Sans;
+    font-size: 2.2rem;
+    color: #000000;
+    font-weight: 700;
+    text-align: left;
+    position: relative;
+    bottom: 4vh;
+}
+.text5-details{
+    font-family: DM Sans;
+    font-size: 1rem;
+    color: #ED5353;
+    font-weight: 500;
+    text-align: left;
+    position: relative;
+    bottom: 10vh;
+}
+.edit-div-details{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+.editjob-btn-details{
+    width: 8vw;
+    height: 5vh;
+    border: none;
+    background-color: #FF6B6B;
+    border-radius: 7px;
+    cursor: pointer;
+    font-family: DM Sans;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+    color: #FFFFFF;
+    position: relative;
+    top: 1vh;
+}
+.deljob-btn-details{
+    width: 8vw;
+    height: 5vh;
+    border: none;
+    background-color: #FF6B6B;
+    border-radius: 7px;
+    cursor: pointer;
+    font-family: DM Sans;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+    color: #FFFFFF;
+    position: relative;
+    top: 1vh;
+}
+.salary-container-details{
+    height: 6vh;
+    display: flex;
+    flex-direction: column;
+}
+.stipend-details{
+    font-family: DM Sans;
+    font-size: 0.8rem;
+    font-weight: 400;
+    text-align: left;
+    color: #999999;
+    position: relative;
+    bottom: 3vh;
+    left: 0.5vw;
+}
+.img6-details{
+    position: relative;
+    right: 0.5vw;
+    top: 0.5vh;
+}
+.salary-details{
+    font-family: DM Sans;
+    font-size: 0.8rem;
+    font-weight: 400;
+    text-align: left;
+    color: #595959;
+    position: relative;
+    bottom: 7vh;
+}
+.bottom-container-details{
+    width: 75vw;
+    display: flex;
+    flex-direction: column;
+}
+.company-details{
+    display: flex;
+    flex-direction: column;
+}
+.company-para-details{
+    font-family: DM Sans;
+    color: #000000;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: left;
+}
+.company-txt-details{
+    font-family: DM Sans;
+    font-size: 1rem;
+    color: #595959;
+    font-weight: 400;
+    text-align: left;
+    position: relative;
+    bottom: 2vh;
+}
+.job-details{
+    display: flex;
+    flex-direction: column;
+}
+.job-para-details{
+    font-family: DM Sans;
+    color: #000000;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: left;
+    position: relative;
+    bottom: 2vh;
+}
+.job-txt-details{
+    font-family: DM Sans;
+    font-size: 1rem;
+    color: #595959;
+    font-weight: 400;
+    text-align: left;
+    position: relative;
+    bottom: 4vh;
+}
+.skills-details{
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+}
+.skills-para-details{
+    font-family: DM Sans;
+    color: #000000;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: left;
+    position: relative;
+    bottom: 2vh;
+}
+.skill-div-details{
+    height: 4vh;
+    display: flex;
+    flex-direction: row;
+    gap: 0.5vw;
+    position: relative;
+    bottom: 3vh;
+}
+.skill-each-div-details{
+    background-color: #FFEEEE;
+    width: 7vw;
+    border-radius: 20px;
+}
+.each-skill-details{
+    font-family: DM Sans;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    position: relative;
+    bottom: 1.5vh;
+}
+.add-info-details{
+    display: flex;
+    flex-direction: column;
+}
+.add-para-details{
+    font-family: DM Sans;
+    color: #000000;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: left;
+}
+.add-txt-details{
+    font-family: DM Sans;
+    font-size: 1rem;
+    color: #595959;
+    font-weight: 400;
+    text-align: left;
+    position: relative;
+    bottom: 2vh;
+}

@@ -1,0 +1,370 @@
+.home-container{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    /* overflow-x: hidden; */
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+}
+.top-container-home{
+    height: 20vh;
+    z-index: 1;
+    position: sticky;
+    top: 0;
+}
+.home-head{
+    font-family: DM Sans;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    z-index: 2;
+    position: relative;
+    bottom: 18vh;
+    left: 3vw;
+}
+.cred-div{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5vw;
+    z-index: 2;
+    position: relative;
+    bottom: 31vh;
+    left: 73vw;
+}
+.home-logout-btn{
+    font-family: DM Sans;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.hello-para-home{
+    font-family: DM Sans;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+.user-pic-home{
+    border-radius: 100%;
+    position: relative;
+    top: 3vh;
+}
+.side-btn-home{
+    display: flex;
+    width: 15vw;
+    flex-direction: row;
+    gap: 1vw;
+    z-index: 2;
+    position: relative;
+    bottom: 27vh;
+    left: 81vw;
+}
+.login-btn-home{
+    width: 6vw;
+    height: 5vh;
+    border: 2px solid #FFFFFF;
+    background-color: #FF6B6B;
+    border-radius: 7px;
+    cursor: pointer;
+    font-family: DM Sans;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+    color: #FFFFFF;
+}
+.reg-btn-home{
+    width: 6vw;
+    height: 5vh;
+    border: 2px solid #FFFFFF;
+    background-color: #FFFFFF;
+    border-radius: 7px;
+    cursor: pointer;
+    font-family: DM Sans;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+    color: #ED5353;
+}
+.mid-container-home{
+    width: 70vw;
+    height: 30vh;
+    box-shadow: 0px 0px 22px 4px #FF202040;
+    position: relative;
+    left: 15vw;
+}
+.lens-home{
+    color: #9C9C9C;
+    z-index: 2;
+    position: relative;
+    left: 6vw;
+    top: 3.5vh;
+}
+.search-input-home{
+    height: 5vh;
+    font-family: DM Sans;
+    font-size: 1rem;
+    font-weight: 500;
+    width: 55vw;
+    border: 1.8px solid #E3E3E3;
+    background-color: #FFFFFF;
+    border-radius: 9px;
+    padding-left: 3vw;
+    position: relative;
+    top: 3vh;
+    left: 4vw;
+}
+.Add-btn-home{
+    width: 7vw;
+    height: 5vh;
+    border: 2px solid #FFFFFF;
+    background-color: #FF6B6B;
+    border-radius: 7px;
+    cursor: pointer;
+    font-family: DM Sans;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+    color: #FFFFFF;
+    position: relative;
+    top: 6vh;
+    left: 60vw;
+}
+.filter-div-home{
+    width: 18vw;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 53vw;
+    bottom: 13vh;
+}
+.filter-btn-home{
+    width: 7vw;
+    height: 5vh;
+    border: 2px solid #FFFFFF;
+    background-color: #FF6B6B;
+    border-radius: 7px;
+    cursor: pointer;
+    font-family: DM Sans;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+    color: #FFFFFF;   
+}
+.clear-btn-home{
+    width: 7vw;
+    height: 5vh;
+    border: none;
+    color: #FF6B6B;
+    border-radius: 7px;
+    cursor: pointer;
+    background-color: #FFFFFF;
+    font-family: DM Sans;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+}
+.skills-select-home{
+    height: 5vh;
+    width: 7vw;
+    border-radius: 9px;
+    background-color: #FFFFFF;
+    border: 2px solid #CECECE;
+    font-family: Roboto;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+    cursor: pointer;
+    color: #9C9C9C;
+    position: relative;
+    top: 4vh;
+    left: 6.3vw;
+}
+.skills-div-home{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1vw;
+    width: 30vw;
+    height: 18vh;
+    position: relative;
+    bottom: 4vh;
+    left: 15vw;
+}
+.skills-set-home{
+    display: flex;
+    flex-direction: row;
+    width: 8vw;
+    height: 6vh;
+    background-color: #FFEEEE;
+}
+.each-skill-home{
+    font-family: DM Sans;
+    width: 5vw;
+    color: #000000;
+    font-size: 1rem;
+    font-weight: 500;
+    position: relative;
+    left: 0.5vw;
+    bottom: 0.7vh;
+}
+.cross-div-home{
+    background-color: #FF6B6B;
+    border-radius: 0px 2px 2px 0px;
+    width: 2.5vw;
+    position: relative;
+    left: 1vw;
+}
+.cross-btn-home{
+    cursor: pointer;
+    position: relative;
+    top: 1.4vh;
+    left: 0.6vw;
+}
+.list-container-home{
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    width: 70vw;
+    height: 40vh;
+    position: relative;
+    left: 15vw;
+    top: 2vh;
+}
+.list-each-home{
+    background-color: #FFFFFF;
+    height: 20vh;
+    box-shadow: 0px 0px 22px 2px #FF202040;
+    position: relative;
+    top: 2vh;
+}
+.list-each-home:hover{
+    box-shadow: 0px 0px 22px 2px #FF0000;
+}
+.logo-img-home{
+    position: relative;
+    left: 1vw;
+    top: 5vh;
+}
+.info-left-home{
+    width: 23vw;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 5vw;
+    bottom: 1vh;
+}
+.position-home{
+    font-family: Roboto;
+    font-size: 1.5rem;
+    font-weight: 500;
+    width: 20vw;
+    position: relative;
+    bottom: 3vh;
+}
+.extra-info-home{
+    display: flex;
+    flex-direction: row;
+    gap: 4vw;
+    position: relative;
+    bottom: 4vh;
+}
+.vacancy-home{
+    font-family: Roboto;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #9C9C9C;
+}
+.salary-home{
+    font-family: Roboto;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #9C9C9C;
+}
+.location-home{
+    font-family: Roboto;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #9C9C9C;
+}
+.info-left-bot-home{
+    display: flex;
+    flex-direction: row;
+    gap: 3vw;
+    position: relative;
+    bottom: 4vh;
+}
+.remote-home{
+    font-family: Roboto;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #ED5353;
+}
+.job-role-home{
+    font-family: Roboto;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #ED5353;
+}
+.info-top-right{
+    width: 37vw;
+    height: 4vh;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 0.5vw;
+    position: relative;
+    left: 31vw;
+    bottom: 14vh;
+}
+.each-info-skill{
+    background-color: #FFEEEE;
+    border-radius: 2px;
+    text-align: center;
+    padding-left: 0.5vw;
+    padding-top: 0.6vh;
+    padding-right: 0.5vw;
+    font-family: DM Sans;
+    font-size: 15.94px;
+    font-weight: 500;
+    color: #000000;
+}
+.details-div-home{
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+    width: 18vw;
+    height: 6vh;
+    position: relative;
+    left: 50vw;
+    bottom: 10vh;
+}
+.edit-btn-home{
+    width: 8vw;
+    height: 5vh;
+    border: 2px solid #FF6B6B;
+    background-color: #FFFFFF;
+    border-radius: 7px;
+    cursor: pointer;
+    font-family: DM Sans;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+    color: #ED5353;
+}
+.details-btn-home{
+    width: 9vw;
+    height: 5vh;
+    border: none;
+    background-color: #FF6B6B;
+    border-radius: 7px;
+    cursor: pointer;
+    font-family: DM Sans;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+    color: #FFFFFF;
+}

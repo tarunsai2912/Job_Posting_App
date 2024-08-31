@@ -1,0 +1,358 @@
+.home-container-update{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.para1-update{
+    font-family: DM Sans;
+    font-size: 2rem;
+    font-weight: 700;
+    color: black;
+    position: relative;
+    bottom: 4vh;
+    left: 3vw;
+}
+.name-update{
+    font-family: DM Sans;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #000000;
+    position: relative;
+    bottom: 8vh;
+    left: 3vw;
+}
+.name-input-update{
+    border: 2px solid #C2C2C2;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    height: 4vh;
+    width: 25vw;
+    font-family: DM Sans;
+    color: #ADADAD;
+    font-size: 15.65px;
+    font-weight: 500;
+    padding-left: 1vw;
+    position: relative;
+    left: 3vw;
+}
+.logo-update{
+    font-family: DM Sans;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #000000;
+    position: relative;
+    bottom: 9vh;
+    left: 3vw;
+}
+.logo-input-update{
+    border: 2px solid #C2C2C2;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    height: 4vh;
+    width: 25vw;
+    font-family: DM Sans;
+    color: #ADADAD;
+    font-size: 15.65px;
+    font-weight: 500;
+    padding-left: 1vw;
+    position: relative;
+    left: 4.3vw;
+}
+.position-update{
+    font-family: DM Sans;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #000000;
+    position: relative;
+    bottom: 10vh;
+    left: 3vw;
+}
+.position-input-update{
+    border: 2px solid #C2C2C2;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    height: 4vh;
+    width: 25vw;
+    font-family: DM Sans;
+    color: #ADADAD;
+    font-size: 15.65px;
+    font-weight: 500;
+    padding-left: 1vw;
+    position: relative;
+    left: 4.5vw;
+}
+.salary-update{
+    font-family: DM Sans;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #000000;
+    position: relative;
+    bottom: 11vh;
+    left: 3vw;
+}
+.salary-input-update{
+    border: 2px solid #C2C2C2;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    height: 4vh;
+    width: 25vw;
+    font-family: DM Sans;
+    color: #ADADAD;
+    font-size: 15.65px;
+    font-weight: 500;
+    padding-left: 1vw;
+    position: relative;
+    left: 3vw;
+}
+.jobtype-div-update{
+    display: flex;
+    flex-direction: row;
+    gap: 6vw;
+    position: relative;
+    bottom: 10vh;
+    left: 3vw;
+}
+.jobtype-para-update{
+    font-family: DM Sans;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #000000;
+}
+#jobtype-update{
+    border: 2px solid #C2C2C2;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    height: 4vh;
+    width: 10vw;
+    font-family: DM Sans;
+    color: #ADADAD;
+    font-size: 15.65px;
+    font-weight: 500;
+    padding-left: 1vw;
+}
+.remote-div-update{
+    display: flex;
+    flex-direction: row;
+    gap: 3.5vw;
+    position: relative;
+    bottom: 14vh;
+    left: 30vw;
+}
+.remote-para-update{
+    font-family: DM Sans;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #000000;
+}
+#remote-update{
+    border: 2px solid #C2C2C2;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    cursor: pointer;
+    height: 4vh;
+    width: 10vw;
+    font-family: DM Sans;
+    color: #ADADAD;
+    font-size: 15.65px;
+    font-weight: 500;
+    padding-left: 1vw;
+}
+.location-update{
+    font-family: DM Sans;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #000000;
+    position: relative;
+    bottom: 13vh;
+    left: 3vw;
+}
+.location-input-update{
+    border: 2px solid #C2C2C2;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    height: 4vh;
+    width: 25vw;
+    font-family: DM Sans;
+    color: #ADADAD;
+    font-size: 15.65px;
+    font-weight: 500;
+    padding-left: 1vw;
+    position: relative;
+    left: 6.1vw;
+}
+.description-update{
+    font-family: DM Sans;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #000000;
+    position: relative;
+    bottom: 14vh;
+    left: 3vw;
+}
+.description-input-update{
+    border: 2px solid #C2C2C2;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    height: 6vh;
+    width: 25vw;
+    font-family: DM Sans;
+    color: #ADADAD;
+    resize: none;
+    font-size: 15.65px;
+    font-weight: 500;
+    padding-left: 1vw;
+    padding-top: 1.2vh;
+    position: relative;
+    left: 2.6vw;
+}
+.about-update{
+    font-family: DM Sans;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #000000;
+    position: relative;
+    bottom: 16vh;
+    left: 3vw;
+}
+.about-input-update{
+    border: 2px solid #C2C2C2;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    height: 6vh;
+    width: 25vw;
+    font-family: DM Sans;
+    color: #ADADAD;
+    font-size: 15.65px;
+    resize: none;
+    font-weight: 500;
+    padding-top: 1.2vh;
+    padding-left: 1vw;
+    position: relative;
+    left: 2.3vw;
+}
+.skills-update{
+    font-family: DM Sans;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #000000;
+    position: relative;
+    bottom: 15vh;
+    left: 3vw;
+}
+#skills-select-update{
+    border: 2px solid #C2C2C2;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    height: 5vh;
+    width: 8vw;
+    font-family: DM Sans;
+    color: #ADADAD;
+    font-size: 15.65px;
+    font-weight: 500;
+    padding-left: 1vw;
+    position: relative;
+    bottom: 18vh;
+    left: 13.2vw;
+}
+.skills-div-update{
+    height: 3vh;
+    width: 57vw;
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+    position: relative;
+    left: 3vw;
+    bottom: 17vh;
+}
+.skills-set-update{
+    background-color: #FFEEEE;
+    border-radius: 0px 2px 2px 0px;
+    display: flex;
+    flex-direction: row;
+    gap: 0.4vw;
+}
+.each-skill-update{
+    font-family: DM Sans;
+    font-size: 0.8rem;
+    font-weight: 500;
+    text-align: left;
+    position: relative;
+    left: 0.2vw;
+    bottom: 1.2vh;
+}
+.cross-div-update{
+    background-color: #FF6B6B;
+    border-radius: 0px 2px 2px 0px;
+    width: 1.5vw;
+    cursor: pointer;
+}
+.cross-btn-update{
+    position: relative;
+    top: 0.35vh;
+    left: 0.25vw;
+}
+.info-update{
+    font-family: DM Sans;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #000000;
+    position: relative;
+    bottom: 17vh;
+    left: 3vw;
+}
+.info-input-update{
+    border: 2px solid #C2C2C2;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    height: 4vh;
+    width: 25vw;
+    font-family: DM Sans;
+    color: #ADADAD;
+    font-size: 15.65px;
+    resize: none;
+    font-weight: 500;
+    padding-left: 1vw;
+    position: relative;
+    left: 4.5vw;
+}
+.foot-div-update{
+    width: 20vw;
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+    position: relative;
+    bottom: 18vh;
+    left: 23.5vw;
+}
+.cancel-btn-update{
+    width: 7vw;
+    height: 5vh;
+    color: #C2C2C2;
+    border: 0.85px solid #CECECE;
+    border-radius: 7px;
+    cursor: pointer;
+    background-color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+}
+.add-btn-update{
+    width: 7vw;
+    height: 5vh;
+    border: none;
+    background-color: #FF6B6B;
+    border-radius: 7px;
+    cursor: pointer;
+    font-family: DM Sans;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+    color: #FFFFFF;   
+}

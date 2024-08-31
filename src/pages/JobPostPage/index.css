@@ -1,0 +1,28 @@
+.jobpost-container{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 60vw 40vw;
+}
+.g1-post{
+    grid-column: 1/2;
+}
+.g2-post{
+    grid-column: 2/3;
+    height: 100vh;
+    width: 40vw;
+    object-fit: cover;
+    overflow: hidden;
+}
+.img-text-post{
+    font-family: DM Sans;
+    font-size: 40px;
+    width: 35vw;
+    font-weight: 500;
+    color: #FFFFFF;
+    z-index: 1;
+    position: relative;
+    bottom: 98vh;
+    left: 4vw;
+}

@@ -1,0 +1,92 @@
+.log-container{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    overflow: hidden;
+}
+.log-head{
+    font-family: DM Sans;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #000000;
+    position: relative;
+    left: 5vw;
+    top: 5vh;
+}
+.log-para{
+    color: #525252;
+    font-family: DM Sans;
+    font-size: 1.2rem;
+    font-weight: 500;
+    position: relative;
+    top: 1vh;
+    left: 5vw;
+}
+.log-div{
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    position: relative;
+    top: 3vh;
+}
+.email-input-log{
+    border: 2px solid #C2C2C2;
+    border-radius: 5px;
+    font-family: DM Sans;
+    font-size: 1rem;
+    color: #525252;
+    font-weight: 500;
+    padding-left: 1vw;
+    width: 40vw;
+    height: 5vh;
+    position: relative;
+    top: 1vh;
+    left: 5vw;
+}
+.password-input-log{
+    border: 2px solid #C2C2C2;
+    border-radius: 5px;
+    font-family: DM Sans;
+    font-size: 1rem;
+    color: #525252;
+    font-weight: 500;
+    padding-left: 1vw;
+    width: 40vw;
+    height: 5vh;
+    position: relative;
+    top: 1vh;
+    left: 5vw;
+}
+.submit-btn-log{
+    background-color: #ED5353;
+    border-radius: 5px;
+    border: none;
+    width: 10vw;
+    height: 5vh;
+    font-family: DM Sans;
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+    position: relative;
+    left: 5vw;
+    top: 5vh;
+}
+.sign-foot-log{
+    font-family: DM Sans;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #525252;
+    position: relative;
+    left: 5vw;
+    top: 8vh;
+}
+.reg-underline{
+    color: #000000;
+    text-decoration: underline;
+    cursor: pointer;
+    position: relative;
+    left: 0.5vw;
+}

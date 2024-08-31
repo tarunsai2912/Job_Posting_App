@@ -1,0 +1,132 @@
+.main-container{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    overflow: hidden;
+}
+.head-1{
+    font-family: DM Sans;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #000000;
+    position: relative;
+    left: 5vw;
+    top: 5vh;
+}
+.para1{
+    color: #525252;
+    font-family: DM Sans;
+    font-size: 1.2rem;
+    font-weight: 500;
+    position: relative;
+    top: 1vh;
+    left: 5vw;
+}
+.input-div{
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+}
+.name-input{
+    border: 2px solid #C2C2C2;
+    border-radius: 5px;
+    font-family: DM Sans;
+    font-size: 1rem;
+    color: #525252;
+    font-weight: 500;
+    padding-left: 1vw;
+    width: 40vw;
+    height: 5vh;
+    position: relative;
+    top: 1vh;
+    left: 5vw;
+}
+.email-input{
+    border: 2px solid #C2C2C2;
+    border-radius: 5px;
+    font-family: DM Sans;
+    font-size: 1rem;
+    color: #525252;
+    font-weight: 500;
+    padding-left: 1vw;
+    width: 40vw;
+    height: 5vh;
+    position: relative;
+    top: 1vh;
+    left: 5vw;
+}
+.mobile-input{
+    border: 2px solid #C2C2C2;
+    border-radius: 5px;
+    font-family: DM Sans;
+    font-size: 1rem;
+    color: #525252;
+    font-weight: 500;
+    padding-left: 1vw;
+    width: 40vw;
+    height: 5vh;
+    position: relative;
+    top: 1vh;
+    left: 5vw;
+}
+.password-input{
+    border: 2px solid #C2C2C2;
+    border-radius: 5px;
+    font-family: DM Sans;
+    font-size: 1rem;
+    color: #525252;
+    font-weight: 500;
+    padding-left: 1vw;
+    width: 40vw;
+    height: 5vh;
+    position: relative;
+    top: 1vh;
+    left: 5vw;
+}
+.checkbox-input{
+    color: #FFFFFF;
+    position: relative;
+    right: 27vw;
+}
+.check-span{
+    font-family: DM Sans;
+    font-size: .9rem;
+    font-weight: 400;
+    color: #525252;
+    position: relative;
+    left: 6.5vw;
+    bottom: 5.5vh;
+}
+.submit-btn{
+    background-color: #ED5353;
+    border-radius: 5px;
+    border: none;
+    width: 10vw;
+    height: 5vh;
+    font-family: DM Sans;
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+    position: relative;
+    left: 5vw;
+    bottom: 5vh;
+}
+.sign-foot{
+    font-family: DM Sans;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #525252;
+    position: relative;
+    left: 5vw;
+    bottom: 5vh;
+}
+.log-underline{
+    color: #000000;
+    text-decoration: underline;
+    cursor: pointer;
+    position: relative;
+    left: 0.5vw;
+}
