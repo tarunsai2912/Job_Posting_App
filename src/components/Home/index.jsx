@@ -4,6 +4,7 @@ import home1 from '../../assets/bar.jpg'
 import cross from '../../assets/cross.png'
 import location from '../../assets/location.png'
 import people from '../../assets/person.png'
+import ClipLoader from "react-spinners/ClipLoader";
 import axios from 'axios'
 
 import lens from '../../assets/lens.png'
@@ -96,7 +97,7 @@ function Home() {
 
   return (
     <>
-    {!loading && <div className='home-container'>
+    {!loading ? <div className='home-container'>
       <div className='top-container-home'>
         <img src={home1} alt='img' className='img1-home' width='100%' height='100%'></img>
         <h3 className='home-head'>Jobfinder</h3>
@@ -178,7 +179,7 @@ function Home() {
         )
       })}
       </div>
-    </div>}
+    </div> : <div style={{position: 'relative', left:'40vw', top:'30vh'}}><ClipLoader color={"#36D7B7"} loading={loading} size={200} /></div>}
     </>
   )
 }
